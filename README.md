@@ -16,10 +16,10 @@ It can be used on a beaglebone/raspberry pi/... or on any laptop with two ethern
 * Python2 with argparse, pcapy
 * Improved impacket from https://github.com/c0d3z3r0/impacket
 
-## Installation
+## Installation instructions for Debian Jessie
 
 ~~~sh
-aptitude install libpcap bridge-utils ebtables iptables arptables macchanger
+aptitude install python-dev python-pip libpcap0.8-dev bridge-utils ebtables iptables arptables macchanger
 pip install virtualenv
 
 virtualenv venv
